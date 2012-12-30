@@ -1,0 +1,88 @@
+body{
+	background:url(images/bc.png) repeat fixed  left;
+  font-size:16px;
+  font-family: "Century Gothic", "Lucida Grande", Helvetica, Arial, 微軟正黑體, 微软雅黑;
+}
+img{
+  border:none;
+}
+*{
+	margin:0;
+	padding:0;
+}
+#title{
+	margin:120px auto 0;
+	width:450px;
+	height:30px;
+	text-align:center;
+}
+#login{
+	margin:40px auto;
+	padding:20px;
+	background-color:white;
+	width:450px;
+	height:220px;
+	border-radius:10px;
+}
+#top{
+	text-align:center;
+	margin:0 auto 10px;
+	line-height:14px;
+	font-size:22px;
+}
+#user{
+	width:240px;
+	margin:0 auto;
+}
+#user a{
+	font-size:13px;
+	color:#4B97E3;
+}
+#user a:visted{
+	color:#4B97E3;
+}
+#lg-un{
+	margin-bottom:5px;
+}
+#lg-pw{
+	margin-bottom:5px;
+}	
+.text{
+	margin-right:10px;
+	*position:relative;
+	*bottom:15px;
+}
+.input{
+	border:1px solid #ccc;
+	border-radius:5px;
+	font-size:15px;
+	margin:10px 0;
+	width:180px;
+	height:25px;
+	display:inline;
+	-webkit-transition: width .5s linear;
+	-moz-transition: width .5s linear;
+	transition: width .5s linear;
+}
+.input:focus  {
+	outline:2px solid #6FA1D9;
+}
+#but{
+	width:250px;
+	margin:10px auto;
+}
+.button{
+	background:url(images/bd-split.gif);
+	color:white;
+	width:90px;
+	height:30px;
+	border-radius:8px;
+	cursor:pointer;
+}
+.button:hover{
+	background-position:-240px 0;
+}
+#result{
+	font-size:13px;
+	color:red;
+}
