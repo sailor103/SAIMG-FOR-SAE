@@ -14,6 +14,10 @@ saimg.sql 里面是数据的基本格式
 ========
 默认用户名和密码均为admin 
 
+测试地址
+========
+http://saimg.sinaapp.com/
+
 图床配置
 ========
 图床的配置文件为conn.php
